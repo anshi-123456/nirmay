@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthTech AI Assistant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>Nirmay</h1>
+            <p>Your personal healthcare companion</p>
+            <div class="medical-icon">
+                <i class="fas fa-heartbeat"></i>
+            </div>
+        </div>
+        
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot-message">
+                <div class="message-content">
+                    How may i assist you? / मैं आपकी किस प्रकार से सहायता कर सकता हूँ?
+                </div>
+            </div>
+        </div>
+        
+        <button class="emergency-button">
+            <i class="fas fa-phone-alt"></i> Emergency Help
+        </button>
+        
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Type your health question here...">
+            <button class="send-button" id="sendButton">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+        
+        <div class="disclaimer">
+           All rights reserved to Nirmay.
+        </div>
+    </div>
+
+    <script src="chat.js"></script>
+</body>
+</html>
